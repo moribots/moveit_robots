@@ -34,5 +34,5 @@
     <arg name="rviz_config" value="$(arg rviz_config)" />
   </include>
 
-  <include file="$(find baxter_moveit_config)/launch/default_warehouse_db.launch" />
+  <!-- <include file="$(find baxter_moveit_config)/launch/default_warehouse_db.launch" /> -->
 </launch>
