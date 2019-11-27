@@ -3,7 +3,7 @@ left_arm:
 # uncomment to use ikfast kinematics plugin
   kinematics_solver: trac_ik_kinematics_plugin/TRAC_IKKinematicsPlugin
   kinematics_solver_attempts: 3
-  kinematics_solver_search_resolution: 0.0005
+  kinematics_solver_search_resolution: 0.00000005
   kinematics_solver_timeout: 0.005
   solve_type: Distance
 right_arm:
@@ -12,6 +12,6 @@ right_arm:
   kinematics_solver: trac_ik_kinematics_plugin/TRAC_IKKinematicsPlugin
   kinematics_solver_attempts: 3
 # Original resolution was 0.005
-  kinematics_solver_search_resolution: 0.00005
+  kinematics_solver_search_resolution: 0.00000005
   kinematics_solver_timeout: 0.005
   solve_type: Distance
